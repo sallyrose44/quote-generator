@@ -38,7 +38,7 @@ function newQuote(){
         quoteText.classList.remove('long-quote')
     }
     // set the quote, hide loader
-    quoteText.textContent = quote.text;
+    quoteText.textContent =  quote.text;
     complete();
 }
 
@@ -50,6 +50,7 @@ async function getQuotes() {
         const response = await fetch(apiUrl);
         apiQuotes = await response.json();
         newQuote();
+
     } catch (error) {
         alert(error)
         // catch error here
