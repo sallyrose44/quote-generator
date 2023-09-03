@@ -42,6 +42,7 @@ body {
 
 .fa-quote-right {
     font-size: 40px;
+    position: absolute;
 }
 
 #quote-mark {
