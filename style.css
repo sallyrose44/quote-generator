@@ -32,17 +32,19 @@ body {
 }
 
 
+
 .long-quote {
     font-size: 25px;
 }
 
 .fa-quote-left {
     font-size: 40px;
+    margin-right: 5px;
 }
 
 .fa-quote-right {
     font-size: 40px;
-    position: absolute;
+    
 }
 
 #quote-mark {
